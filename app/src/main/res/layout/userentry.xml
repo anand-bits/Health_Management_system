@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Name:-"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextViewPatientName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anand"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Email:-"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/TextViewPatientEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anand"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Username:-"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextViewPatientUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anand"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Spo2-"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextViewSpo2Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Temp:-"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextViewPatientTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Fall Status:- "
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TextViewPatientfall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not fallen"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonexpanding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Want to see>" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

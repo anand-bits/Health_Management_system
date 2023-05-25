@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "490659470891",
+    "firebase_url": "https://sescompriproject-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sescompriproject",
+    "storage_bucket": "sescompriproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490659470891:android:fa7e80661493eea2c6546e",
+        "android_client_info": {
+          "package_name": "com.example.hms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PgiaiMvkWSl46DemyMYr5n-F3a1Hnko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490659470891:android:15eac788e2cbe35ac6546e",
+        "android_client_info": {
+          "package_name": "com.example.new_trial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PgiaiMvkWSl46DemyMYr5n-F3a1Hnko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490659470891:android:600ede27b1bfde83c6546e",
+        "android_client_info": {
+          "package_name": "com.example.ses_trial_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PgiaiMvkWSl46DemyMYr5n-F3a1Hnko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490659470891-6gcdvhmvj1if1naoch820dfc0ivk55ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
